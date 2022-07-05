@@ -1,0 +1,78 @@
+//google fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter&family=Roboto:wght@300;400;700;900&display=swap');
+
+//variables
+$primary: #013243;
+$secondary: #86BFD3;
+$h1-font-size: 2.3rem;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//background
+@media all and (min-width: 575px) {
+    body {
+        background-image: url(../assets/Background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+//fonts
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.dm-sans-font {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.inter-font {
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+//font-size
+
+@include media-breakpoint-up(xs) {
+    html {
+        font-size: 1.3rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+//border radius
+
+@include media-breakpoint-up(sm) {
+    .rounded-corners-1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .rounded-corners-2 {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .rounded-corners-1 {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .rounded-corners-2 {
+        border-radius: 0px 10px 10px 0px;
+    }
+}
