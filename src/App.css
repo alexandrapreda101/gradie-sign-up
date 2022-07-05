@@ -1,8 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter&family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter&family=Roboto:wght@300;400;700;900&display=swap');
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@media all and (min-width: 575px) {
+  body {
+    background-image: url(assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+  font-size: larger;
 }

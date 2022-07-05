@@ -1,12 +1,10 @@
 import './App.css';
-import Presentation from './components/Presentation';
-import Login from './components/Login';
+import Page from './components/Page';
 
 export default function App() {
   return (
     <div className="App">
-      <Presentation />
-      <Login />
+      <Page />
     </div>
   );
 }
