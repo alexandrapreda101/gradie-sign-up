@@ -11,8 +11,6 @@ export default function Login() {
         setIsChecked(!isChecked);
     }
 
-    console.log(isChecked);
-
     return (
         <Form className='mx-lg-5 px-lg-2  mx-3 px-1'>
             <h1 className='mt-4 pt-4 roboto-font font-bold'>Login</h1>
@@ -53,8 +51,7 @@ export default function Login() {
                 />
                 <Form.Label
                     className="form-check-label inter-font "
-                    for="defaultCheck">By creating an account, you agree to the
-                    <a className="text-primary font-bold" href='#'>Terms & Conditions.</a>
+                    for="defaultCheck">By creating an account, you agree to the <a className="text-primary font-bold" href='#'>Terms & Conditions.</a>
                 </Form.Label>
             </Form.Group>
             <Button className='btn-primary btn-md w-100 py-3 dm-sans-font font-bold my-xxl-3 my-lg-5 h5 my-4' type="submit">Create an Account</Button>
