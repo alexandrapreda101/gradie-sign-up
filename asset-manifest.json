@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gradie-sign-up/static/css/main.52f2cfdf.css",
+    "main.js": "/gradie-sign-up/static/js/main.15ba9cfe.js",
+    "static/media/Background.png": "/gradie-sign-up/static/media/Background.95dd4e245e63fda26481.png",
+    "static/media/iPhone_Mockup.png": "/gradie-sign-up/static/media/iPhone_Mockup.1cf4c343cdb5e9e69aae.png",
+    "index.html": "/gradie-sign-up/index.html",
+    "main.52f2cfdf.css.map": "/gradie-sign-up/static/css/main.52f2cfdf.css.map",
+    "main.15ba9cfe.js.map": "/gradie-sign-up/static/js/main.15ba9cfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52f2cfdf.css",
+    "static/js/main.15ba9cfe.js"
+  ]
+}
